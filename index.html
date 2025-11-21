@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jobee</title>
+</head>
+<body>
+    <div class="header">
+        <div class="header-left">
+            <div class="profile-pic" id="headerProfilePic">
+                <img src="image/blank_pic.png" alt="Profile" id="profileImg">
+            </div>
+            <span class="username">[NAME] <span class="verified-badge">✓</span></span>
+        </div>
+        <div class="logo" id="jobeeLogo">
+            Jobee
+            <div class="bee-icon">
+                <img src="image/JOBEE_logo.png" alt="Bee Logo" id="beeImg"
+                width="40" height="40">
+            </div>
+        </div>
+        <div class="header-right">
+            <button class="icon-btn" id="helpBtn">❓</button>
+            <button class="icon-btn">⚙️</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <aside class="sidebar">
+            <div class="sidebar-title">
+                Interests 🔍
+            </div>
+            <div class="interest-item">
+                <div class="interest-icon">
+                    <img src="image/ttu_logo.png.jpg" alt="Texas Tech" id="texasTechImg">
+                </div>
+                <span>Texas Tech University</span>
+            </div>
+            <div class="interest-item" id="microsoftInterest">
+                <div class="interest-icon">
+                    <img src="image/Microsoft_logo.png" alt="Microsoft" id="microsoftSidebarImg">
+                </div>
+                <span>Microsoft</span>
+            </div>
+            <div class="interest-item">
+                <div class="interest-icon">
+                    <img src="image/Google_Logo.jpg" alt="Google" id="googleImg">
+                <span>Google</span>
+            </div>
+        </aside>
+
+        <!-- Feed Page -->
+        <main class="main-content page active" id="feedPage">
+            <div class="search-bar">
+                <button class="search-btn">🔍</button>
+                <input type="text" class="search-input" placeholder="Search...">
+                <button class="search-btn">➕</button>
+                <button class="search-btn">⭐</button>
+            </div>
+
+            <div class="post">
+                <div class="post-header">
+                    <div class="post-avatar">
+                        <img src="image/ttu_logo.png.jpg" alt="Texas Tech" id="texasTechPostImg">
+                    </div>
+                    <div class="post-title">Texas Tech University</div>
+                    <div class="post-menu">⋮</div>
+                </div>
+                <div class="post-content">Game Day Tomorrow, Wreck'em Tech!</div>
+                <div class="post-stats">
+                    <div class="stat">👍 123,345</div>
+                    <div class="stat">💬 732</div>
+                    <div class="stat">🔁</div>
+                </div>
+            </div>
+
+            <div class="post">
+                <div class="post-header">
+                    <div class="post-avatar">
+                        <img src="image/CALIE_logo.png" alt="CALIE" id="calieImg">
+                    </div>
+                    <div class="post-title">CALIE</div>
+                    <div class="post-menu">⋮</div>
+                </div>
+                <div class="post-text">
+                    Innovation thrives, where community thrives. CALIE amplifies opportunities for educators to grow, connect, co-create, and ignite ideas that move learning forward...more
+                </div>
+                <div class="post-stats">
+                    <div class="stat">👍 32,321</div>
+                    <div class="stat">💬 31</div>
+                    <div class="stat">🔁</div>
+                </div>
+            </div>
+
+            <div class="post" style="min-height: 200px;">
+                <div class="post-header">
+                    <div class="post-avatar">
+                        <img src="image/Microsoft_logo.png" alt="Microsoft" id="microsoftPostImg">
+                    </div>
+                    <div class="post-title">Microsoft</div>
+                    <div class="post-menu">⋮</div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Job Details Page -->
+        <main class="main-content page" id="jobDetailsPage">
+            <div class="job-header">
+                <div class="job-logo">
+                    <img src="image/Microsoft_logo.png" alt="Microsoft Logo" id="microsoftJobLogo"
+                    width="140" height="140">
+                </div>
+                <div class="job-title-section">
+                    <div class="company-name">Microsoft</div>
+                    <div class="job-title">Cyber Security (entry level)</div>
+                </div>
+            </div>
+
+            <div class="apply-section">
+                <div class="apply-title">Apply-</div>
+                <div class="job-type">
+                    full time <div class="checkbox"></div>
+                </div>
+                <div class="job-type">
+                    part time <div class="checkbox"></div>
+                </div>
+
+                <div class="section-title">Requirements:</div>
+                <ul class="bullet-list">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+
+                <div class="info-lines">
+                    <div class="info-line">
+                        <div class="info-label">Pay:</div>
+                        <div class="info-value"></div>
+                    </div>
+                    <div class="info-line">
+                        <div class="info-label"></div>
+                        <div class="info-value"></div>
+                    </div>
+                    <div class="info-line">
+                        <div class="info-label"></div>
+                        <div class="info-value"></div>
+                    </div>
+                </div>
+
+                <div class="section-title">Benefits:</div>
+                <div class="info-lines">
+                    <div class="info-line">
+                        <div class="info-value"></div>
+                    </div>
+                    <div class="info-line">
+                        <div class="info-value"></div>
+                    </div>
+                    <div class="info-line">
+                        <div class="info-value"></div>
+                    </div>
+                    <div class="info-line">
+                        <div class="info-value"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="description-section">
+                <div class="description-title">Description :</div>
+                <div class="description-lines">
+                    <div class="description-line"></div>
+                    <div class="description-line"></div>
+                    <div class="description-line"></div>
+                    <div class="description-line"></div>
+                    <div class="description-line"></div>
+                    <div class="description-line"></div>
+                    <div class="description-line"></div>
+                </div>
+            </div>
+
+            <div class="reviews-section">
+                <div class="reviews-title">Reviews from other applicants... :</div>
+                <div class="review-cards">
+                    <div class="review-card">
+                        <div class="review-stars">
+                            <div class="star"></div>
+                            <div class="star"></div>
+                            <div class="star"></div>
+                            <div class="star"></div>
+                            <div class="star"></div>
+                        </div>
+                    </div>
+                    <div class="review-card">
+                        <div class="review-stars">
+                            <div class="star"></div>
+                            <div class="star"></div>
+                            <div class="star"></div>
+                            <div class="star"></div>
+                            <div class="star"></div>
+                        </div>
+                    </div>
+                    <div class="review-card">
+                        <div class="review-stars">
+                            <div class="star"></div>
+                            <div class="star"></div>
+                            <div class="star"></div>
+                            <div class="star"></div>
+                            <div class="star"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Profile Page -->
+        <main class="main-content page" id="profilePage">
+            <div class="profile-header">
+                <div class="profile-avatar">
+                    <img src="image/blank_pic.png" alt="Profile" id="profilePageAvatar"
+                    width="150" height="150">
+                </div>
+                <div class="profile-info">
+                    <div class="profile-name">
+                        [NAME]
+                        <span class="verified-badge">✓</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bio-section">
+                <div class="bio-title">Bio:</div>
+                <div class="bio-lines">
+                    <div class="bio-line"></div>
+                    <div class="bio-line"></div>
+                    <div class="bio-line"></div>
+                </div>
+            </div>
+
+            <div class="school-info">
+                <div class="school-name">Texas Tech University</div>
+                <div class="school-major">[MAJOR]</div>
+            </div>
+
+            <div class="profile-buttons">
+                <button class="profile-btn">Add to Portfolio</button>
+                <button class="profile-btn">Add Listing</button>
+                <button class="edit-profile-btn">Edit profile ✏️</button>
+            </div>
+
+            <div style="padding: 30px;">
+                <div class="open-to-work">
+                    <div class="open-to-work-title">Open to Work</div>
+                    <div class="open-to-work-role">[Job Role]</div>
+                </div>
+            </div>
+
+            <div class="experiences-section">
+                <div class="experiences-title">Experiences:</div>
+                <div class="experience-item">
+                    <div class="experience-logo">
+                        <img src="image/Microsoft_logo.png" alt="Microsoft" id="experienceMicrosoftImg"
+                        width="50" height="50">
+                    </div>
+                    <div class="experience-details">
+                        <div class="experience-company">Microsoft:</div>
+                        <div class="experience-lines">
+                            <div class="experience-line"></div>
+                            <div class="experience-line"></div>
+                            <div class="experience-line"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button class="edit-btn-bottom">Edit ✏️</button>
+        </main>
+
+        <!-- Help/Reviews Page -->
+        <main class="main-content page" id="helpPage">
+            <div class="reviews-page-content">
+                <div class="nav-icons">
+                    <span class="nav-icon" id="homeIcon">🏠</span>
+                    <span class="nav-icon">✉️</span>
+                </div>
+
+                <div class="reviews-grid">
+                    <div class="review-box">
+                        <div class="review-box-header">
+                            <div class="reviewer-avatar">
+                                <img src="image/blank_pic.png" alt="Reviewer" id="reviewer1Img"
+                                width="50" height="50">
+                            </div>
+                            <div class="review-rating">
+                                <div class="star"></div>
+                                <div class="star"></div>
+                                <div class="star"></div>
+                                <div class="star"></div>
+                                <div class="star"></div>
+                            </div>
+                        </div>
+                        <div class="review-box-content">
+                            <div class="review-text-line"></div>
+                            <div class="review-text-line"></div>
+                            <div class="review-text-line"></div>
+                            <div class="review-text-line"></div>
+                            <div class="review-text-line"></div>
+                        </div>
+                    </div>
+
+                    <div class="review-box">
+                        <div class="review-box-header">
+                            <div class="reviewer-avatar">
+                                <img src="image/blank_pic.png" alt="Reviewer" id="reviewer2Img"
+                                width="50" height="50">
+                            </div>
+                            <div class="review-rating">
+                                <div class="star"></div>
+                                <div class="star"></div>
+                                <div class="star"></div>
+                                <div class="star"></div>
+                                <div class="star"></div>
+                            </div>
+                        </div>
+                        <div class="review-box-content">
+                            <div class="review-text-line"></div>
+                            <div class="review-text-line"></div>
+                            <div class="review-text-line"></div>
+                            <div class="review-text-line"></div>
+                            <div class="review-text-line"></div>
+                        </div>
+                    </div>
+
+                    <div class="review-box">
+                        <div class="review-box-header">
+                            <div class="reviewer-avatar">
+                                <img src="image/blank_pic.png" alt="Reviewer" id="reviewer3Img"
+                                width="50" height="50">
+                            </div>
+                            <div class="review-rating">
+                                <div class="star"></div>
+                                <div class="star"></div>
+                                <div class="star"></div>
+                                <div class="star"></div>
+                                <div class="star"></div>
+                            </div>
+                        </div>
+                        <div class="review-box-content">
+                            <div class="review-text-line"></div>
+                            <div class="review-text-line"></div>
+                            <div class="review-text-line"></div>
+                            <div class="review-text-line"></div>
+                            <div class="review-text-line"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <aside class="right-sidebar">
+            <div class="friends-title">
+                Friends 🔍
+            </div>
+            <div class="friend-item">
+                <div class="status-dot status-offline"></div>
+                <div class="friend-line"></div>
+                <div class="friend-time">now</div>
+            </div>
+            <div class="friend-item">
+                <div class="status-dot status-online"></div>
+                <div class="friend-line"></div>
+                <div class="friend-time">1hr ago</div>
+            </div>
+            <div class="friend-item">
+                <div class="status-dot status-online"></div>
+                <div class="friend-line"></div>
+                <div class="friend-time">3d ago</div>
+            </div>
+        </aside>
+    </div>
+
+    <script>
+        // Get all page elements
+        const feedPage = document.getElementById('feedPage');
+        const jobDetailsPage = document.getElementById('jobDetailsPage');
+        const profilePage = document.getElementById('profilePage');
+        const helpPage = document.getElementById('helpPage');
+        
+        // Get navigation elements
+        const microsoftInterest = document.getElementById('microsoftInterest');
+        const headerProfilePic = document.getElementById('headerProfilePic');
+        const jobeeLogo = document.getElementById('jobeeLogo');
+        const helpBtn = document.getElementById('helpBtn');
+        const homeIcon = document.getElementById('homeIcon');
+
+        // Function to switch pages
+        function switchToPage(pageToShow) {
+            // Hide all pages
+            feedPage.classList.remove('active');
+            jobDetailsPage.classList.remove('active');
+            profilePage.classList.remove('active');
+            helpPage.classList.remove('active');
+            
+            // Show selected page
+            pageToShow.classList.add('active');
+        }
+
+        // Navigation event listeners
+        microsoftInterest.addEventListener('click', function() {
+            switchToPage(jobDetailsPage);
+        });
+
+        headerProfilePic.addEventListener('click', function() {
+            switchToPage(profilePage);
+        });
+
+        jobeeLogo.addEventListener('click', function() {
+            switchToPage(feedPage);
+        });
+
+        helpBtn.addEventListener('click', function() {
+            switchToPage(helpPage);
+        });
+
+        homeIcon.addEventListener('click', function() {
+            switchToPage(feedPage);
+        });
+    </script>
+</body>
+</html>
